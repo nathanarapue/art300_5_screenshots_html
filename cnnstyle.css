@@ -1,0 +1,483 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 15vh;
+    width: 100vw;
+    background-color: #3D3D3D;
+}
+
+.spacer{
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-top: 2vh;
+    height: 5vh;
+    width: 70vw;
+    background-color: #3D3D3D;
+}
+
+.upper-content-header{
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-top: 2vh;
+    height: 10vh;
+    width: 70vw;
+    background-color: #A6ABAB;
+}
+
+.upper-content{
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-top: 1vh;
+    width: 70vw;
+
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-areas: "a a a c"
+                         "a a a d"
+                         "a a a d"
+                         "b b b d"
+                         "b b b e";
+}
+.upper-content-left{
+    width: 55vw;
+}
+
+.content-left-upper{
+    grid-area: a;
+    width: 55vw;
+    height: 40vh;
+    background-color: #1A28FA;
+}
+
+.content-left-lower{
+    grid-area: b;
+    margin-top: 1vh;
+    width: 55vw;
+    height: 20vh;
+    background-color: #94C0EB;
+}
+
+.upper-content-right{
+    width: 15vw;
+    margin-right: 15vw;
+}
+
+.content-right-red{
+    grid-area: c;
+    width: 15vw;
+    height: 25vh;
+    background-color: #E83636;
+}
+
+.content-right-gray{
+    grid-area: d;
+    margin-top: 1vh;
+    width: 15vw;
+    height: 5vh;
+    background-color: #A6ABAB;
+}
+
+.content-right-purp{
+    grid-area: e;
+    width: 15vw;
+    margin-top: 1vh;
+    height: 17vh;
+    background-color: #8D06F6;
+}
+
+.ad{
+    margin-right: 20vw;
+    margin-left: 20vw;
+    margin-top: 2vh;
+    height: 10vh;
+    width: 60vw;
+    background-color: #3D3D3D;
+}
+
+.story-section-1{
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vh;
+}
+
+.story-section-1-left-header{
+    height: 10vh;
+    background-color: #3D3D3D;
+}
+
+.story-section-1-left-text{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 60vh;
+    background-color: #94C0EB;
+}
+
+.story-section-1-left-footer{
+    height: 5vh;
+    background-color: #3D3D3D;
+}
+
+.story-1-section-middle-header{
+    height: 10vh;
+    background-color: #3D3D3D;
+    margin-bottom: 1vh;
+}
+
+.story-1-section-middle-text-1{
+    height: 20vh;
+    margin-bottom: 1vh;
+    background-color: #FDFF06;
+}
+
+.story-1-section-middle-text-2{
+    height: 5vh;
+    background-color: #8D06F6;
+    margin-bottom: 1vh;
+}
+
+.story-1-section-middle-text-3{
+    height: 5vh;
+    background-color: #94C0EB;
+    margin-bottom: 1vh;
+}
+
+.story-1-section-middle-footer{
+    height: 5vh;
+    background-color: #3D3D3D;
+    margin-bottom: 1vh;
+}
+
+.story-1-section-middle-footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vh;
+}
+
+.story-1-section-middle-footer-grid-1{
+    height: 10vh;
+    margin-bottom: 1vh;
+    background-color: #FDFF06;
+}
+
+.story-1-section-middle-footer-grid-2{
+    height: 10vh;
+    margin-bottom: 1vh;
+    background-color: #8D06F6;
+}
+
+.story-1-section-middle-footer-grid-3{
+    height: 10vh;
+    margin-bottom: 1vh;
+    background-color: #E83636;
+}
+
+.story-1-section-middle-footer-grid-4{
+    height: 10vh;
+    margin-bottom: 1vh;
+    background-color: #1A28FA;
+}
+
+.story-1-section-right-text-1{
+    height: 20vh;
+    margin-bottom: 2vh;
+    background-color: #1A28FA;
+}
+
+.story-1-section-right-text-2{
+    height: 20vh;
+    margin-bottom: 2vh;
+    background-color: #E83636;
+}
+
+.story-1-section-right-text-3{
+    height: 20vh;
+    margin-bottom: 2vh;
+    background-color: #FDFF06;
+}
+
+.story-1-section-right-text-4{
+    height: 5vh;
+    margin-bottom: 1vh;
+    background-color: #3D3D3D;
+}
+
+
+.story-section-2{
+    margin-top: 2vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    width: 70vw;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vh;
+}
+
+.story-section-2-1{
+    height: 35vh;
+    background-color: #E83636;
+}
+
+.story-section-2-2{
+    height: 35vh;
+    background-color: #1A28FA;
+}
+
+.spacer-2{
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-top: 2vh;
+    height: 2vh;
+    width: 70vw;
+    background-color: #3D3D3D;
+}
+
+.story-section-3{
+    margin-top: 2vh;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-bottom: 10vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vh;
+}
+
+.story-3-section-left{
+    height: 50vh;
+
+}
+
+.story-3-section-header{
+    height: 2vh;
+    margin-bottom: 1vh;
+    background-color: #3D3D3D;
+}
+
+.story-3-section-text{
+    height: 15vh;
+    margin-bottom: 1vh;
+    background-color: #8D06F6;
+}
+
+.story-3-section-text-2{
+    height: 5vh;
+    margin-bottom: 1vh;
+    background-color: #FDFF06;
+}
+
+.story-3-section-text-3{
+    height: 20vh;
+    margin-bottom: 1vh;
+    background-color: #E83636;
+}
+
+.story-3-section-text-footer{
+    height: 8vh;
+    background-color: #94C0EB;
+}
+
+.story-3-section-middle{
+    height: 50vh;
+
+}
+
+.story-3-section-right{
+    height: 50vh;
+
+}
+
+.story-3-section-text-4{
+    height: 42vh;
+    margin-bottom: 1vh;
+    background-color: #1A28FA;
+}
+
+.story-text{
+    margin-top: 2vh;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-bottom: 10vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vh;
+}
+
+.text{
+    height: 4vh;
+    background-color: #3D3D3D;
+}
+
+.story-section-4{
+    margin-right: 15vw;
+    margin-left: 15vw;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1vh;
+}
+
+.story-section-4-left{
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vh;
+}
+
+.story-section-4-yellow{
+    height: 20vh;
+    margin-top: 1vh;
+    background-color: #FDFF06;
+}
+
+.story-section-4-gray{
+    margin-top: 1vh;
+    height: 20vh;
+    background-color: #A6ABAB;
+}
+
+.story-section-4-red{
+    margin-top: 1vh;
+    height: 20vh;
+    background-color: #E83636;
+}
+
+.story-section-4-gray-1{
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    height: 20vh;
+    background-color: #3D3D3D;
+}
+.story-section-4-red-1{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+    background-color: #E83636;
+}
+
+.story-section-4-blue-1{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+    background-color: #1A28FA;
+}
+
+.story-section-4-yellow-1{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+    background-color: #FDFF06;
+}
+
+.story-section-4-purple-1{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+    background-color: #8D06F6;
+}
+
+.story-section-4-light-blue-1{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+    background-color: #94C0EB;
+}
+.story-sectionbar{
+    margin-top: 2vh;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-bottom: 2vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1vh;
+}
+
+.story-sectionbar-red{
+    width: 15vw;
+    margin-top: 1vh;
+    height: 17vh;
+    background-color: #E83636;
+}
+
+.story-sectionbar-purp{
+    width: 15vw;
+    margin-top: 1vh;
+    height: 17vh;
+    background-color: #8D06F6;
+}
+
+.story-sectionbar-blue{
+    width: 15vw;
+    margin-top: 1vh;
+    height: 17vh;
+    background-color: #1A28FA;
+}
+
+.story-sectionbar-yellow{
+    width: 15vw;
+    margin-top: 1vh;
+    height: 17vh;
+    background-color: #FDFF06;
+}
+
+.story-footer{
+    margin-top: 2vh;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-bottom: 2vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2vh;
+}
+
+.story-foot-red{
+    background-color: white;
+}
+
+.story-foot-light-blue{
+    background-color:white;
+}
+
+.story-foot-yellow{
+    background-color: white;
+}
+
+.story-foot-purp{
+    background-color: white;
+}
+
+.story-foot-top{
+    height: 2vh;
+    margin-bottom: 2vh;
+    background-color: #3D3D3D;
+}
+
+.story-foot-red-1{
+    height: 8vh;
+    background-color: #E83636;
+}
+
+.story-foot-light-blue-1{
+    height: 8vh;
+    background-color: #94C0EB;
+}
+
+.story-foot-yellow-1{
+    height: 8vh;
+    background-color: #FDFF06;
+}
+
+.story-foot-purp-1{
+    height: 8vh;
+    background-color: #8D06F6;
+}

@@ -1,0 +1,268 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: #3D3D3D;
+    margin-bottom: 10px;
+}
+
+.lower-header{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 40vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10vw;
+}
+
+.info{
+    width: 35vw;
+    background-color: #E75227;
+}
+
+.text-1{
+    margin-left: 40vw;
+    margin-right: 40vw;
+    width: 20vw;
+    height: 5vh;
+    background-color: #3D3D3D;
+}
+
+.text-2{
+    margin-top: 5vh;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    width: 30vw;
+    height: 5vh;
+    background-color: #3D3D3D;
+}
+
+.product-news{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-left: 10vw;
+    width: 80vw;
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-gap: 1vh;
+}
+
+.product-info-b{
+    height: 30vh;
+    background-color: #2579C1;
+}
+
+.product-info-o{
+    height: 30vh;
+    background-color: #E75227;
+}
+
+.product-info-g{
+    height: 10vh;
+    background-color: #3D3D3D;
+}
+
+.text-3{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    height: 5vh;
+    background-color: #3D3D3D;
+}
+
+.text-4{
+    margin-top: 5vh;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    width: 30vw;
+    height: 5vh;
+    background-color: #3D3D3D;
+}
+
+.product-info-pb{
+    margin-top: 5vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vh;
+}
+
+.info-p{
+    height: 20vh;
+    background-color: #8D06F6;
+}
+
+.info-b{
+    height: 20vh;
+    background-color: #2579C1;
+}
+
+.product-obg{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    grid-gap: 2vh;
+}
+
+.product-o{
+    height: 20vh;
+    background-color: #E75227;
+}
+
+.product-b{
+    margin-top: 5vh;
+    height: 20vh;
+    background-color: #2579C1;
+}
+
+.product-g{
+    height: 45vh;
+    background-color: #3D3D3D;
+}
+
+.product-gy{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2vh;
+}
+
+.product-y-tall{
+    height: 45vh;
+    background-color: #FDFF06;
+}
+
+.product-info-ob-gg{
+    margin-top: 5vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vh;
+}
+
+.info-o{
+    height: 20vh;
+    background-color: #E75227;
+}
+
+.product-pyg{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    grid-gap: 2vh;
+}
+
+.product-y-short{
+    margin-top: 5vh;
+    height: 20vh;
+    background-color: #FDFF06;
+}
+
+.product-p{
+    height: 20vh;
+    background-color: #8D06F6;
+}
+
+.product-info-ob{
+    margin-top: 5vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vh;
+}
+
+.product-pyg-right{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    grid-gap: 2vh;
+}
+
+.product-y-short{
+    margin-top: 5vh;
+    height: 20vh;
+    background-color: #FDFF06;
+}
+
+.product-p{
+    height: 20vh;
+    background-color: #8D06F6;
+}
+
+.product-info-py{
+    margin-top: 5vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vh;
+}
+.info-y{
+    height: 20vh;
+    background-color: #FDFF06;
+}
+
+.info-o-ggg{
+    height: 20vh;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1vh;
+}
+
+.text-5{
+    margin-top: 1vh;
+    height: 5vh;
+    background-color: #3D3D3D;
+}
+
+.text-6{
+
+    height: 5vh;
+    background-color: #3D3D3D;
+}
+
+.text-7{
+    margin-bottom: 1vh;
+    height: 5vh;
+    background-color: #3D3D3D;
+}
+
